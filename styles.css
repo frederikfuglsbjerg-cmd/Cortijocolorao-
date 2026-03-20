@@ -282,7 +282,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #2C1810 0%, #4A2318 30%, #6B3520 60%, #8E4A2A 100%);
+    background: url('https://www.todofamilias.com/wp-content/uploads/2023/02/granja-escuela-cortijo-colorao3.jpg') center center / cover no-repeat;
     overflow: hidden;
 }
 
@@ -290,10 +290,7 @@ img {
     content: '';
     position: absolute;
     inset: 0;
-    background:
-        radial-gradient(ellipse at 20% 50%, rgba(184, 56, 44, 0.3) 0%, transparent 60%),
-        radial-gradient(ellipse at 80% 20%, rgba(212, 165, 74, 0.2) 0%, transparent 50%),
-        radial-gradient(ellipse at 60% 80%, rgba(44, 107, 79, 0.15) 0%, transparent 50%);
+    background: rgba(26, 18, 10, 0.55);
 }
 
 .hero-overlay {
